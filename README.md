@@ -14,23 +14,15 @@ Implémentation du jeu Gomoku en Java avec :
 - [x] Sauvegarde texte des parties
 - [x] Paramétrage des règles
 
-# Compilation
+# Compilation -Exécution
 javac -d compiled/ src/*/*.java src/Main.java
 
-# Exécution avec paramètres par défaut (15x15, 60 jetons, alignement de 5)
+Exécution avec paramètres par défaut (15x15, 60 jetons, alignement de 5)
 java -cp compiled/ Main
 
-# Avec paramètres personnalisés
+-Avec paramètres personnalisés
 java -cp compiled/ Main [taille] [jetons] [alignement]
 
-
-gomoku/
-├── src/
-│   ├── model/       # Classes métier
-│   ├── view/        # Affichage
-│   └── Main.java    # Point d'entrée
-├── compiled/        # Fichiers compilés
-└── saved_games/     # Sauvegardes
 
 
 
